@@ -461,7 +461,7 @@ class: clear
 
 ## Communiquer sur l'avancement des groupes de tâches avec le "hill chart"
 
-<img src="img/file-0ZODTrR3Qb.gif" />
+<img src=https://d33v4339jhl8k0.cloudfront.net/docs/assets/59de6bbc2c7d3a40f0ed605f/images/5b16f84f0428632c466a94e5/file-0ZODTrR3Qb.gif" />
 
 ???
 
@@ -474,7 +474,7 @@ class: clear
 
 ## Communiquer sur l'avancement des groupes de tâches avec le "hill chart"
 
-<img src="img/hill-chart-hero.gif" />
+<img src="https://basecamp.com/assets/images/hill-charts/hill-chart-hero.gif" />
 
 ---
 class: clear
