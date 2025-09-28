@@ -22,7 +22,7 @@ Intérêt de décloisonner l'information dans les organisations. S'inspirer des 
 
 Prise de notes programmables et gestion des connaissances individuelles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, restituer des informations avec DQL (Dataview Query Language).
 
-* [support de présentation](Notes-programmables-gestion-connaissances-personnelles-Obsidian.html)
+<!-- * [support de présentation](Notes-programmables-gestion-connaissances-personnelles-Obsidian.html) -->
 
 ### Session n° 3
 
@@ -30,7 +30,7 @@ Prise de notes programmables et gestion des connaissances individuelles avec Obs
 
 Aller plus loin dans les notes programmables avec Notion, qui apporte une grande ergonomie et une dimension collaborative. Anytype s'inspire de Notion tout en respectant la vie privée.
 
-* [support de présentation](Notes-programmables-gestion-connaissances-personnelles-Notion.html)
+<!-- * [support de présentation](Notes-programmables-gestion-connaissances-personnelles-Notion.html) -->
 
 ### Session n° 4
 
@@ -46,4 +46,4 @@ Contrôle des connaissances
 
 Structurer ses données sous forme tabulaire avec Airtable : exemple d'informations textuelles.
 
-* [support de présentation](Structurer-donnees-tabulaires-Airtable.html)
+<!-- * [support de présentation](Structurer-donnees-tabulaires-Airtable.html) -->
