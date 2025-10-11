@@ -20,9 +20,11 @@ Intérêt de décloisonner l'information dans les organisations. S'inspirer des 
 
 **Jeudi 16 octobre : 8h30-12H30**
 
-Prise de notes programmables et gestion des connaissances individuelles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, restituer des informations avec DQL (Dataview Query Language).
+Prise de notes programmables et gestion des connaissances individuelles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, faire des requêtes sur les notes avec Bases.
 
-<!-- * [support de présentation](Notes-programmables-gestion-connaissances-personnelles-Obsidian.html) -->
+* [support de présentation](Notes-programmables-gestion-connaissances-personnelles-Obsidian.html)
+* [Exercices Bases](https://enro.github.io/pratiques-collaboratives-partage-connaissances/Coffre%20Obsidian/Exercices%20Bases.pdf)
+
 
 ### Session n° 3
 

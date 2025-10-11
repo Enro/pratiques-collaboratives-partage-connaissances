@@ -47,3 +47,14 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# large files
+assets/
+
+# Mac files
+*.DS_Store
+
+# Examen et corrections
+Examen.*
+Exercices corrigés Dataview.md
+Exercices Dataview.md

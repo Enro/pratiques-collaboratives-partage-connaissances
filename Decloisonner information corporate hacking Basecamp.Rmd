@@ -412,6 +412,8 @@ Basecamp est un outil de gestion de projet lancé en 2004 aux USA.
 --
 
 1. Faites le tour de tous les projets auxquels vous avez accès
+<!-- avec les projets en All Access ils n'ont pas le bouton "View all projects as list" donc comment les rejoindre ?
+-->
 --
 
 1. Explorez le calendrier du cours
@@ -421,6 +423,9 @@ Basecamp est un outil de gestion de projet lancé en 2004 aux USA.
 --
 
 1. Activez les notifications du projet "Fête de promo"
+<!-- 
+Les notifications sont activées par défaut si invitées dans le projet 
+-->
 --
 
 1. Ajoutez un nouveau message
@@ -432,7 +437,7 @@ Basecamp est un outil de gestion de projet lancé en 2004 aux USA.
 1. Le groupe 1 crée des tâches, le groupe 2 les assigne avec des dates butoirs
 --
 
-1. Discutez autour du feu de camp "Cours pratiques collaboratives…"
+1. Discutez dans le chat "Cours pratiques collaboratives…"
 --
 
 1. Créez un nouveau projet et invitez des camarades
@@ -456,12 +461,14 @@ Basecamp est un outil de gestion de projet lancé en 2004 aux USA.
 
 Projet > Set-up tools > Automatic check-in
 
+
+
 ---
 class: clear
 
 ## Communiquer sur l'avancement des groupes de tâches avec le "hill chart"
 
-<img src=https://d33v4339jhl8k0.cloudfront.net/docs/assets/59de6bbc2c7d3a40f0ed605f/images/5b16f84f0428632c466a94e5/file-0ZODTrR3Qb.gif" />
+<img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/59de6bbc2c7d3a40f0ed605f/images/5b16f84f0428632c466a94e5/file-0ZODTrR3Qb.gif" />
 
 ???
 
