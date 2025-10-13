@@ -297,10 +297,12 @@ class: clear
 Dataview est un plugin pour Obsidian qui permet d'afficher les informations contenues dans ses notes grâce à des requêtes -- et plus largement de gérer ses notes comme une base de données.
 
 .pull-left[
+**Table**
 <img src="img/bases-table.png" width="400">
 ]
 
 .pull-right[
+**Cartes**
 <img src="img/bases-cards.png" width="450">
 ]
 
@@ -320,11 +322,13 @@ class: clear
 
 ### Tutoriel Bases
 
-https://enro.github.io/pratiques-collaboratives-partage-connaissances/Tutoriel-Dataview.html
+https://enro.github.io/pratiques-collaboratives-partage-connaissances/Tutoriel-Bases.html
 
 --
 
-### Exercices Dataview
+<!-- à reprendre ici -->
+
+### Exercices Bases
 
 ```{css, echo=FALSE}
 #embeded_pdf {
@@ -334,13 +338,13 @@ https://enro.github.io/pratiques-collaboratives-partage-connaissances/Tutoriel-D
 
 ```
 
-<embed src="https://enro.github.io/pratiques-collaboratives-partage-connaissances/Coffre%20Obsidian/Exercices%20Dataview.pdf" type="application/pdf" id="embeded_pdf">
+<embed src="https://enro.github.io/pratiques-collaboratives-partage-connaissances/Coffre%20Obsidian/Exercices%20Bases.pdf" type="application/pdf" id="embeded_pdf">
 
 ???
 
-Exercices corrigés : ouvrir /Users/antoine/Documents/Enseignement/BUT Infonum/Cours "Pratiques collaboratives et partage de connaissances"/Coffre Obsidian/Exercices corrigés Dataview.md dans Obsidian
+Exercices corrigés : ouvrir /Users/antoine/Documents/Enseignement/BUT Infonum/Cours "Pratiques collaboratives et partage de connaissances"/Coffre Obsidian/Exercices corrigés Bases.md dans Obsidian
 
-Exercices PDF : https://enro.github.io/pratiques-collaboratives-partage-connaissances/Coffre%20Obsidian/Exercices%20Dataview.pdf
+Exercices PDF : https://enro.github.io/pratiques-collaboratives-partage-connaissances/Coffre%20Obsidian/Exercices%20Bases.pdf
 
 ---
 class: clear
