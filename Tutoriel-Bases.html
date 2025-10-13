@@ -354,78 +354,52 @@ display: none;
 
 <div id="tutoriel-bases" class="section level1">
 <h1>Tutoriel Bases</h1>
-<p>Tutoriel inspiré par Len : <a href="https://medium.com/@lennart.dde/a-beginners-guide-to-bases-in-obsidian-your-data-your-way-773a72dc00db" class="uri">https://medium.com/@lennart.dde/a-beginners-guide-to-bases-in-obsidian-your-data-your-way-773a72dc00db</a></p>
-<p>Vous pouvez vous aider de <a href="https://s-blu.github.io/basic-dataview-query-builder/" class="uri">https://s-blu.github.io/basic-dataview-query-builder/</a>
-pour bâtir vos requêtes.</p>
-<div id="installer-le-module-dataview" class="section level2">
-<h2>Installer le module Dataview</h2>
+<div id="installer-le-module-bases" class="section level2">
+<h2>Installer le module Bases</h2>
 <p>Aller dans
 <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
 <path d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z"></path></svg>
-<code>Paramètres</code> &gt; <code>Modules complémentaires</code> &gt;
-<code>Activer les modules complémentaires</code> (si c’est la première
-fois que vous installez un module communautaire) &gt;
-<code>Parcourir</code> &gt; chercher <code>Dataview</code> et cliquer
-sur <code>Installer</code> &gt; cliquer sur <code>Activer</code>.</p>
+<code>Paramètres</code> &gt; <code>Modules principaux</code> &gt;
+vérifier que le module <code>Bases</code>
+<svg viewBox="0 0 576 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M384 64H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm0 320c-70.8 0-128-57.3-128-128 0-70.8 57.3-128 128-128 70.8 0 128 57.3 128 128 0 70.8-57.3 128-128 128z"></path></svg>
+est activé.</p>
 </div>
 <div id="types-dinformations-que-lon-peut-requêter" class="section level2">
 <h2>Types d’informations que l’on peut requêter</h2>
-<p>Les requêtes Dataview peuvent porter sur :</p>
+<p>Les requêtes Bases peuvent porter sur :</p>
 <ul>
 <li>les propriétés (en-tête YAML)</li>
-<li>les tâches</li>
-<li>les items en listes</li>
 <li>le chemin et le nom des notes</li>
-<li>les liens entrants (<em>inlinks</em>) et liens sortants
-(<em>outlinks</em>)</li>
+<li>les liens entrants (<em>backlinks</em>) et liens sortants
+(<em>links</em>)</li>
 <li>la taille des notes (en octets)</li>
 <li>les dates de création et de modification des notes</li>
-<li>les champs en ligne</li>
 </ul>
-<p>Un <strong>champ en ligne</strong> permet d’insérer une information
-requêtable directement dans le corps de la note. Elle est utile quand
-cette information ne concerne pas la note dans son ensemble
-(contrairement à la propriété de l’en-tête).</p>
-<p>Syntaxe : <code>Propriété:: Valeur</code></p>
-<p>Pour cacher cette syntaxe il faut écrire <code>Faire ce devoir avec
-(Qui:: Isabelle)</code> qui s’affichera <code>Faire ce devoir avec
-Isabelle</code>.</p>
 </div>
-<div id="première-requête-en-dataview-query-language" class="section level2">
-<h2>Première requête en <em>Dataview Query Language</em></h2>
-<pre><code>```dataview
-LIST 
+<div id="première-requête-bases" class="section level2">
+<h2>Première requête Bases</h2>
+<pre><code>```base
+views:
+  - type: table
+    name: &quot;Ma table&quot;
 ```</code></pre>
 <p>crée un index de toutes vos notes Obsidian.</p>
 </div>
 <div id="filtrer-les-notes-à-afficher" class="section level2">
 <h2>Filtrer les notes à afficher</h2>
-<div id="from" class="section level3">
-<h3>FROM</h3>
-<p>On peut restreindre la requête à un dossier :</p>
-<pre><code>```dataview
-LIST FROM &quot;Cours&quot;
-```</code></pre>
-<p>ou un tag :</p>
-<pre><code>```dataview
-LIST FROM #outil
-```</code></pre>
-<p>Il est aussi possible d’exclure un tag avec la syntaxe
-<code>-#tag</code> et d’exlure un dossier avec la syntaxe
-<code>-&quot;Dossier&quot;</code>.</p>
-</div>
-<div id="where" class="section level3">
-<h3>WHERE</h3>
 <p>On peut choisir de filtrer sur un champ :</p>
-<pre><code>```dataview
-LIST
-WHERE Qui = &quot;Isabelle&quot;
+<pre><code>```base
+filters:
+  and:
+    - file.hasTag(&quot;tag&quot;)
 ```</code></pre>
-<p>où <code>Qui</code> est un champ en ligne que vous avez créé (les
-champs en ligne sont déterminés par l’utilisateur uniquement).</p>
-<p>C’est la commande <code>WHERE</code> qui permet d’exclure les notes
+<p>où <code>&quot;tag&quot;</code> est un mot-clé de la note.</p>
+<p>C’est la commande <code>filters</code> qui permet d’exclure les notes
 qui ne remplissent pas le(s) condition(s) voulue(s).</p>
-<p>La commande <code>WHERE</code> s’applique à l’ensemble des champs
+<div id="champs-requêtables" class="section level3">
+<h3>Champs requêtables</h3>
+<p>La commande <code>filters</code> s’applique à l’ensemble des champs
 requêtables, à savoir :</p>
 <table>
 <colgroup>
@@ -465,23 +439,13 @@ fichier.</td>
 <code>md</code>.</td>
 </tr>
 <tr class="odd">
-<td align="left"><code>file.link</code></td>
-<td align="left">Lien</td>
-<td align="left">Un lien vers la note.</td>
-</tr>
-<tr class="even">
 <td align="left"><code>file.size</code></td>
 <td align="left">Nombre</td>
 <td align="left">La taille (en octets) de la note.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><code>file.ctime</code></td>
 <td align="left">Date avec heure</td>
-<td align="left">La date à laquelle la note a été créée.</td>
-</tr>
-<tr class="even">
-<td align="left"><code>file.cday</code></td>
-<td align="left">Date</td>
 <td align="left">La date à laquelle la note a été créée.</td>
 </tr>
 <tr class="odd">
@@ -491,187 +455,214 @@ fichier.</td>
 dernière fois.</td>
 </tr>
 <tr class="even">
-<td align="left"><code>file.mday</code></td>
-<td align="left">Date</td>
-<td align="left">La date à laquelle la note a été modifiée pour la
-dernière fois.</td>
-</tr>
-<tr class="odd">
 <td align="left"><code>file.tags</code></td>
 <td align="left">Liste</td>
-<td align="left">Une liste de tous les tags uniques dans la note. Les
-sous-tags sont indexés pour chaque niveau, par exemple
-<code>#Tag/1/A</code> sera indexé comme
-<code>[#Tag, #Tag/1, #Tag/1/A]</code>.</td>
-</tr>
-<tr class="even">
-<td align="left"><code>file.etags</code></td>
-<td align="left">Liste</td>
-<td align="left">Une liste de tous les tags explicites dans la note ;
-contrairement à <code>file.tags</code>, elle ne décompose pas les
-sous-tags, c’est-à-dire <code>[#Tag/1/A]</code>.</td>
+<td align="left">Une liste de tous les tags uniques dans la note.</td>
 </tr>
 <tr class="odd">
-<td align="left"><code>file.inlinks</code></td>
+<td align="left"><code>file.backlinks</code></td>
 <td align="left">Liste</td>
 <td align="left">Une liste de tous les liens entrants vers cette note,
 c’est-à-dire toutes les notes contenant un lien vers cette note.</td>
 </tr>
 <tr class="even">
-<td align="left"><code>file.outlinks</code></td>
+<td align="left"><code>file.links</code></td>
 <td align="left">Liste</td>
 <td align="left">Une liste de tous les liens sortants de cette note,
 c’est-à-dire tous les liens que la note contient.</td>
 </tr>
 <tr class="odd">
-<td align="left"><code>file.aliases</code></td>
+<td align="left"><code>file.embeds</code></td>
 <td align="left">Liste</td>
-<td align="left">Une liste de tous les alias pour la note tels que
-définis via l’<a href="https://help.obsidian.md/How+to/Add+aliases+to+note">en-tête
-YAML</a>.</td>
+<td align="left">Une liste de tous les fichiers encapsulés dans la note
+(images, fichiers PDF…).</td>
 </tr>
 <tr class="even">
-<td align="left"><code>file.tasks</code></td>
-<td align="left">Liste</td>
-<td align="left">Une liste de toutes les tâches dans la note.</td>
-</tr>
-<tr class="odd">
-<td align="left"><code>file.lists</code></td>
-<td align="left">Liste</td>
-<td align="left">Une liste de tous les éléments de liste dans le fichier
-(y compris les tâches).</td>
-</tr>
-<tr class="even">
-<td align="left"><code>file.day</code></td>
-<td align="left">Date</td>
-<td align="left">Disponible uniquement si le fichier contient une date
-dans son nom de fichier (sous la forme <code>yyyy-mm-dd</code> ou
-<code>yyyymmdd</code>), ou s’il contient une propriété ou un champ
-<code>Date</code>.</td>
+<td align="left"><code>file.properties</code></td>
+<td align="left">Objet</td>
+<td align="left">Toutes les propriétés de la note.</td>
 </tr>
 </tbody>
 </table>
-<p>Pour manipuler des dates (champs <code>file.day</code>,
-<code>file.ctime</code>, <code>file.cday</code>,
-<code>file.mtime</code>, <code>file.mday</code>) il est généralement
-utile de les comparer à la date du jour. Par exemple</p>
-<pre><code>```dataview
-LIST
-WHERE file.mtime &gt;= date(today) - dur(1 week)
+</div>
+<div id="manipulation-des-dates" class="section level3">
+<h3>Manipulation des dates</h3>
+<p>Pour manipuler des dates (champs <code>file.ctime</code>,
+<code>file.mtime</code>) il est généralement utile de les comparer à la
+date du jour. Par exemple</p>
+<pre><code>```base
+filters:
+  and:
+    - file.mtime &gt; now() - &quot;1 week&quot;
 ```</code></pre>
-<p>exclut les fichier qui n’ont pas été modifiés dans la semaine écoulée
-(littéralement : la requête ne garde que les fichiers dont la dernière
+<p>exclut les notes qui n’ont pas été modifiées dans la semaine écoulée
+(littéralement : la requête ne garde que les notes dont la dernière
 modification est postérieure à la date du jour moins 1 semaine).</p>
 <p>Toutes les options permettant de manier les dates et les durées sont
-décrites dans <a href="https://blacksmithgu.github.io/obsidian-dataview/reference/literals/#dates">la
-documentation Dataview</a>.</p>
+décrites dans <a href="https://help.obsidian.md/bases/syntax#Date%20arithmetic">la
+documentation Bases</a>.</p>
 </div>
-<div id="limit" class="section level3">
-<h3>LIMIT</h3>
-<p>Pour n’afficher que les 5, 10, 20 premiers résultats, il est possible
-d’utiliser la commande <code>LIMIT 5</code> ou <code>LIMIT 10</code>
-etc.</p>
+<div id="opérateurs-logiques" class="section level3">
+<h3>Opérateurs logiques</h3>
+<p>Il est possible de combiner plusieurs filtres, comme dans l’exemple
+suivant :</p>
+<pre><code>```base
+filters:
+  or:
+    - file.hasTag(&quot;tag&quot;)
+    - and:
+        - file.hasTag(&quot;livre&quot;)
+        - file.hasLink(&quot;Manuel&quot;)
+    - not:
+        - file.hasTag(&quot;livre&quot;)
+        - file.inFolder(&quot;Cours&quot;)
+```</code></pre>
+<p>Dans cet exemple, trois sous-parties sont introduites par un
+opérateur <code>or</code>, ce qui signifie que les notes doivent remplir
+au moins un des trois critères suivants :</p>
+<ul>
+<li>soit <code>file.hasTag(&quot;tag&quot;)</code></li>
+<li>soit <code>file.hasTag(&quot;livre&quot;)</code> et
+<code>file.hasLink(&quot;Manuel&quot;)</code></li>
+<li>soit ni <code>file.hasTag(&quot;livre&quot;)</code> ni
+<code>file.inFolder(&quot;Cours&quot;)</code>.</li>
+</ul>
 </div>
 </div>
 <div id="choisir-ce-quon-veut-afficher" class="section level2">
 <h2>Choisir ce qu’on veut afficher</h2>
-<p>L’affichage des résultats peut prendre quatre formes :</p>
+<p>L’affichage des résultats peut prendre deux formes :</p>
 <ul>
-<li>une liste</li>
 <li>un tableau</li>
-<li>une liste de tâches</li>
-<li>un calendrier</li>
+<li>des cartes organisées en galerie.</li>
 </ul>
-<div id="list" class="section level3">
-<h3>LIST</h3>
-<p>Toutes les requêtes jusqu’ici utilisaient la commande
-<code>LIST</code>, qui affiche les résultats (c’est-à-dire les noms des
-notes) sous forme de liste à puces.</p>
-<p>Il est possible de compléter le nom des notes en affichant le chemin
-des dossiers par exemple :</p>
-<pre><code>```dataview 
-LIST file.folder
-```</code></pre>
-</div>
 <div id="table" class="section level3">
-<h3>TABLE</h3>
-<p>La commande <code>TABLE</code> affiche les résultats de la requête
+<h3>table</h3>
+<p>La commande <code>table</code> affiche les résultats de la requête
 sous forme de tableau, avec une ou plusieurs colonnes. Par exemple, la
 requête ci-dessous affiche la liste des notes sous la forme d’un tableau
-avec une unique colonne :</p>
-<pre><code>```dataview
-TABLE
+avec une unique colonne (le nom des notes) :</p>
+<pre><code>```base
+views:
+  - type: table
+    name: &quot;Ma table&quot;
 ```</code></pre>
-<p>Pour avoir plusieurs colonnes, il suffit de spécifier les colonnes à
-afficher en les séparant par une virgule :</p>
-<pre><code>```dataview
-TABLE file.cday, file.folder, file.tags
+<p>Pour avoir plusieurs colonnes, il suffit d’utiliser la commande
+<code>order</code>, qui définit le contenu et l’ordre des colonnes :</p>
+<pre><code>```base
+views:
+  - type: table
+    name: &quot;Ma table&quot;
+    order:
+      - file.name
+      - file.ctime
+      - file.folder
+      - file.tags
 ```</code></pre>
 <p>Il est également possible de modifier l’en-tête des colonnes en
-précisant :</p>
-<pre><code>```dataview
-TABLE file.cday AS &quot;Date de création&quot;, file.folder AS Dossier, file.tags as Tags
-```</code></pre>
-<p>Et il est possible de modifier la première colonne (par défaut le nom
-des notes) avec la commande <code>TABLE WITHOUT ID</code> :</p>
-<pre><code>```dataview
-TABLE WITHOUT ID
-file.link AS Note, file.cday AS &quot;Date de création&quot;, file.folder AS Dossier, file.tags as Tags
-```</code></pre>
-</div>
-<div id="task" class="section level3">
-<h3>TASK</h3>
-<p>La commande <code>TASK</code>retourne des tâches et non pas des
-pages. Ces tâches se comportent comme des tâches classiques et à
-l’inverse des autres requêtes, celle-ci fait plus qu’afficher des
-informations, et permet de les modifier :</p>
-<pre><code>```dataview
-TASK
-```</code></pre>
-<p>ou</p>
-<pre><code>```dataview
-TASK
-WHERE !completed AND contains(tags, &quot;#urgent&quot;)
+utilisant la commande <code>properties</code> :</p>
+<pre><code>```base
+properties:
+  file.name:
+    displayName: &quot;Nom&quot;
+  file.ctime:
+    displayName: &quot;Date de création&quot;
+  file.folder:
+    displayName: &quot;Dossier&quot;
+  file.tags:
+    displayName: &quot;Tags&quot;
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.ctime
+      - file.folder
+      - file.tags
 ```</code></pre>
 </div>
-<div id="calendar" class="section level3">
-<h3>CALENDAR</h3>
-<p>La commande <code>CALENDAR</code> affiche un calendrier sur lequel
-chaque note est représentée par un point. Par conséquent, la requête
-doit préciser le champ de type date qui est pris en compte :</p>
-<pre><code>```dataview
-CALENDAR file.ctime
+<div id="cards" class="section level3">
+<h3>cards</h3>
+<p>Sur le même principe, la requête ci-dessous affiche la liste des
+notes sous la forme d’une galerie de cartes :</p>
+<pre><code>```base
+views:
+  - type: cards
+    name: &quot;Ma galerie&quot;
 ```</code></pre>
-<p>Si tous les résultats de la requête ne possèdent pas ce champ de type
-date (ici <code>file.ctime</code>) alors le calendrier ne s’affiche
-pas.</p>
+<p>Des paramètres spécifiques à la galerie peuvent s’appliquer :</p>
+<ul>
+<li><code>cardSize</code> détermine la largeur des cartes</li>
+<li><code>image</code> détermine l’image à afficher en couverture de
+chaque carte : soit une URL, soit un fichier attaché, soit une
+couleur</li>
+<li><code>imageFit</code> détermine comment l’image doit s’adapter à la
+taille de la carte (soit <code>contain</code> pour que l’image conserve
+ses proportions, soit <code>cover</code> pour qu’elle soit rognée et
+remplisse tout l’espace)</li>
+<li><code>imageAspectRatio</code> détermine la proportion de l’image
+(<code>1.1</code> pour une image carrée).</li>
+</ul>
+<p>Par exemple :</p>
+<pre><code>```base
+views:
+  - type: cards
+    name: &quot;Ma galerie&quot;
+    image: file.attachment
+    imageFit: contain
+    cardSize: 100
+    imageAspectRatio: 1.7
+```</code></pre>
+</div>
+<div id="limit" class="section level3">
+<h3>limit</h3>
+<p>Pour n’afficher que les 5, 10, 20 premiers résultats, il est possible
+d’utiliser la commande <code>limit</code> de la façon suivante :</p>
+<pre><code>```base
+views:
+  - type: table
+    name: &quot;Ma table&quot;
+    limit: 10
+```</code></pre>
 </div>
 </div>
-<div id="trier-ou-grouper-les-résultats-à-afficher" class="section level2">
-<h2>Trier ou grouper les résultats à afficher</h2>
+<div id="trier-les-résultats-à-afficher" class="section level2">
+<h2>Trier les résultats à afficher</h2>
 <div id="sort" class="section level3">
-<h3>SORT</h3>
-<p>La commande <code>SORT</code> permet de trier les résultats à
+<h3>sort</h3>
+<p>La commande <code>sort</code> permet de trier les résultats à
 afficher selon un ou plusieurs champs, dans l’ordre des champs (en cas
 d’ex-aequo).</p>
 <p>Le tri peut se faire dans l’ordre croissant (<code>ASC</code>) ou
 décroissant (<code>DESC</code>) :</p>
-<pre><code>```dataview
-TABLE file.cday, file.folder, file.tags
-SORT file.name ASC, file.cday DESC
+<pre><code>```base
+views:
+  - type: table
+    name: &quot;Ma table&quot;
+    order:
+      - file.name
+      - file.ctime
+      - file.folder
+      - file.tags
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.ctime
+        direction: DESC
 ```</code></pre>
-</div>
-<div id="group-by" class="section level3">
-<h3>GROUP BY</h3>
-<p>La commande <code>GROUP BY</code> permet d’afficher plusieurs
-résultats par ligne, une ligne étant créée pour chaque valeur possible
-:</p>
-<pre><code>```dataview
+<!-- Cette fonctionnalité est en développement : https://forum.obsidian.md/t/group-by-feature-in-bases-similar-to-notion/105483/2
+### GROUP BY
+
+La commande `GROUP BY` permet d'afficher plusieurs résultats par ligne, une ligne étant créée pour chaque valeur possible :
+````
+``` dataview
 TASK
 GROUP BY file.folder
-```</code></pre>
+```
+````
+-->
 <p style="text-align: center;">
-Rédigé par Antoine Blanchard en novembre 2023
+<p>Rédigé par Antoine Blanchard en octobre 2025</p>
 </p>
 </div>
 </div>
