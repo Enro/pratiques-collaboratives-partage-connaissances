@@ -23,6 +23,7 @@ Intérêt de décloisonner l'information dans les organisations. S'inspirer des 
 Prise de notes programmables et gestion des connaissances individuelles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, faire des requêtes sur les notes avec Bases.
 
 * [support de présentation](Notes-programmables-gestion-connaissances-personnelles-Obsidian.html)
+* [tutoriel Bases](Tutorial-Bases.html)
 * [Exercices Bases](https://enro.github.io/pratiques-collaboratives-partage-connaissances/Coffre%20Obsidian/Exercices%20Bases.pdf)
 
 
