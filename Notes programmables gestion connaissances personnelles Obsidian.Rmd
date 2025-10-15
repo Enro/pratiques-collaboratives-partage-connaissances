@@ -88,8 +88,8 @@ class: clear
 
 ## Quels logiciels utilisez-vous pour prendre des notes, organiser vos connaissances… ?
 
-```{r xaringanExtra-scribble, echo=FALSE}
-xaringanExtra::use_scribble()
+```{r xaringan-editable, echo=FALSE}
+xaringanExtra::use_editable(expires = 1)
 ```
 
 <br />
@@ -294,7 +294,7 @@ class: clear
 
 ## Aller plus loin avec Bases
 
-Dataview est un plugin pour Obsidian qui permet d'afficher les informations contenues dans ses notes grâce à des requêtes -- et plus largement de gérer ses notes comme une base de données.
+Bases est un plugin pour Obsidian qui permet d'afficher les informations contenues dans ses notes grâce à des requêtes -- et plus largement de gérer ses notes comme une base de données.
 
 .pull-left[
 **Table**
