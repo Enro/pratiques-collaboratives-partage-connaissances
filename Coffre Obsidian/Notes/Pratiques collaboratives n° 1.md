@@ -15,9 +15,3 @@ UE: Pratiques collaboratives et gestion des connaissances
 - Utilisation de l'outil Basecamp pour gérer des projets collaboratifs en donnant accès à un maximum d'informations, tout en autorisant des réglages fins qui permettent de ne pas notifier inutilement etc.
 
 # Notes du cours 
-
-```base
-views:
-  - type: table
-    name: Table
-```

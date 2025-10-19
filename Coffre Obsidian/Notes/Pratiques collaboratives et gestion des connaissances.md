@@ -15,4 +15,6 @@ Le cours vise à développer des compétences en matière de _collaboration_ e
 - [[Pratiques collaboratives n° 4]]
 - [[Pratiques collaboratives n° 5]]
 
+
 # Liste des devoirs 
+

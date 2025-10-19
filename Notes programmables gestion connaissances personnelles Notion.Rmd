@@ -1,0 +1,160 @@
+---
+title: Gestion du travail et des connaissances individuelles avec Notion
+subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
+author: "Antoine Blanchard"
+date: "Octobre 2024"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+    nature:
+      ratio: "4:3"
+    anchor_sections: false
+
+---
+class: clear
+
+## Rappel des épisodes précédents
+
+https://enro.github.io/pratiques-collaboratives-partage-connaissances/
+
+
+---
+class: clear
+
+## Petit échauffement
+<br />
+<br />
+Vous avez un RDV avec votre collègue Nadia dans 3 semaines. Vous avez mis du temps à décrocher ce RDV et souhaitez discuter de nombreux sujets avec elle.
+<br />
+<br />
+<br />
+.center.font150[Comment faites-vous pour n'oublier aucun point à aborder ?]
+
+???
+
+Réfléchir ensemble aux solutions : feuille volante, cahier, Google Drive, Obsidian
+
+---
+class: inverse, mline, center, middle
+
+# D'Obsidian à Notion
+---
+class: clear
+
+## Rappels sur Obsidian
+<br />
+<br />
+* logiciel propriétaire mais gratuit
+* fichiers .md stockés en local
+* un seul utilisateur (sauf à stocker les fichiers .md dans un espace partagé)
+* des extensions pour ajouter des fonctionnalités
+* des modèles (*templates*) pour se faciliter la vie
+* un langage de requête (au niveau de la page) : Dataview
+* 1 million d'utilisateurs revendiqués en 2021 ([source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps))
+
+---
+class: clear
+
+## Notion
+<br />
+<br />
+
+* outil payant dans le cloud (SaaS)
+* pas d'accès aux fichiers source
+* collaboratif
+* des modèles (*templates*) pour se faciliter la vie
+* des fonctionnalités de requête simples d'emploi
+* 20 millions d'utilisateurs revendiqués en 2021 ([source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps))
+
+---
+class: clear
+
+## On s'y met ? À la découverte de Notion !
+
+https://www.notion.so/but-infonum/Accueil-11a056bf9f7580bbaa6fde3d2086a389
+
+???
+
+Créer l'ensemble de l'activité un espace d'équipe dédié BUT3 Infonum.
+
+Créer un accès invité pour chaque étudiant·e : en haut à droite de la page, cliquez sur Partager, puis sur le bouton Inviter (avec les droits "Accès complet")
+
+Après 1h : ils ont lu leur texte
+Pause de 15'
+Après 2h : ils ont fini leur fiche de lecture
+Pause de 10'
+Après 3h : ils ont fini l'activité Notion et ont installé Anytype
+
+---
+class: clear
+
+## Limites de Notion : la confidentialité
+<br />
+Anytype propose une autre vision :
+
+> Our mission is to empower sustainable cooperation by building tools for thought, freedom and trust. ([source](https://anytype.io/why/mission/))
+
+Anytype est un logiciel libre développé par une association basée en Suisse.
+
+--
+
+Avec Anytype, vos données sont cryptées et synchronisées. Vous choisissez avec qui collaborer sur vos notes, et si vous voulez les publier.
+
+???
+
+All of your data is private in Anytype. Only you have the encryption keys. No one at Anytype can decrypt your data. So if you lose your phrase, we can’t restore access. Likewise, no one in Anytype or anyone else can read the content of your Anytype.
+
+---
+class: clear
+
+## Anytype en vidéo
+<br />
+<br />
+.center[<iframe title="vimeo-player" src="https://player.vimeo.com/video/848056412?h=7ee3b08a5c" width="640" height="360" frameborder="0"    allowfullscreen></iframe>]
+
+---
+class: clear
+
+## On s'y met ? À la découverte d'Anytype !
+
+#### 1. Installer Anytype
+* télécharger Anytype sur https://download.anytype.io/
+* installer le logiciel et le lancer
+* créer un compte et le sécuriser avec une phrase de récupération (à conserver confidentiellement et précieusement)
+
+--
+
+#### 2. Créer une note sur votre rapport au numérique collaboratif
+
+* faire clic-droit sur l'icône `r icons::fontawesome("plus")` en bas de page puis choisir l'option `Page`
+* recopier vos réponses au questionnaire de la 1<sup>e</sup> séance : https://s.42l.fr/mon-rapport
+* enjoliver votre note
+
+--
+
+#### 3. Importer votre fiche de lecture depuis Notion
+
+* dans Notion, aller sur votre fiche de lecture et sélectionner le menu `r icons::fontawesome("ellipsis-h")` > `Exporter` > `Exporter`
+* dans Anytype, aller dans le menu `Anytype` > `Paramètres` > `Importer dans l'espace` > `r icons::fontawesome("markdown")` `Markdown` et sélectionner le fichier Zip exporté depuis Notion
+
+???
+
+Si manque de temps, sauter 2.
+
+---
+class: clear
+
+## Bilan de l'activité
+
+Que pensez-vous de l'utilisation de Notion ? Et d'Anytype ?
+
+???
+
+Ergonomique, agréable…
+
+---
+class: clear
+
+## Révisez pour le dernier cours
+
+Je vous interrogerai par un quiz noté !
