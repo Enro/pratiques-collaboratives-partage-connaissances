@@ -2,7 +2,7 @@
 title: Gestion du travail et des connaissances individuelles avec Notion
 subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
 author: "Antoine Blanchard"
-date: "Octobre 2024"
+date: "Octobre 2025"
 output:
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]
@@ -14,8 +14,9 @@ output:
 class: clear
 
 ## Rappel des épisodes précédents
-
-https://enro.github.io/pratiques-collaboratives-partage-connaissances/
+<br />
+<br />
+.center.font150[https://enro.github.io/pratiques-collaboratives-partage-connaissances/]
 
 
 ---
@@ -49,7 +50,7 @@ class: clear
 * un seul utilisateur (sauf à stocker les fichiers .md dans un espace partagé)
 * des extensions pour ajouter des fonctionnalités
 * des modèles (*templates*) pour se faciliter la vie
-* un langage de requête (au niveau de la page) : Dataview
+* un langage de requête (au niveau de la page) : Bases
 * 1 million d'utilisateurs revendiqués en 2021 ([source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps))
 
 ---
@@ -64,7 +65,7 @@ class: clear
 * collaboratif
 * des modèles (*templates*) pour se faciliter la vie
 * des fonctionnalités de requête simples d'emploi
-* 20 millions d'utilisateurs revendiqués en 2021 ([source](https://www.fastcompany.com/90960653/why-people-are-obsessed-with-obsidian-the-indie-darling-of-notetaking-apps))
+* 100 millions d'utilisateurs revendiqués en 2024 ([source](https://www.notion.com/blog/100-million-of-you))
 
 ---
 class: clear
@@ -75,7 +76,7 @@ https://www.notion.so/but-infonum/Accueil-11a056bf9f7580bbaa6fde3d2086a389
 
 ???
 
-Créer l'ensemble de l'activité un espace d'équipe dédié BUT3 Infonum.
+Dupliquer l'ensemble de l'activité avec le menu "Dupliquer l'espace d'équipe".
 
 Créer un accès invité pour chaque étudiant·e : en haut à droite de la page, cliquez sur Partager, puis sur le bouton Inviter (avec les droits "Accès complet")
 
@@ -126,7 +127,7 @@ class: clear
 
 #### 2. Créer une note sur votre rapport au numérique collaboratif
 
-* faire clic-droit sur l'icône `r icons::fontawesome("plus")` en bas de page puis choisir l'option `Page`
+* faire clic-droit sur l'icône `r fontawesome::fa("pen-to-square")` dans le panneau de gauche
 * recopier vos réponses au questionnaire de la 1<sup>e</sup> séance : https://s.42l.fr/mon-rapport
 * enjoliver votre note
 
@@ -158,3 +159,5 @@ class: clear
 ## Révisez pour le dernier cours
 
 Je vous interrogerai par un quiz noté !
+
+https://enro.github.io/pratiques-collaboratives-partage-connaissances/
