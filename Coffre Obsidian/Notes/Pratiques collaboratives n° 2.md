@@ -1,5 +1,5 @@
 ---
-Date: 2025-10-16
+Date: 2026-10-14
 tags:
   - cours
 Enseignant: Antoine Blanchard

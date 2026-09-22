@@ -99,7 +99,7 @@ L'**espace de travail** regroupe des bases qui ont une cohérence entre elles (m
 
 Une **base** est un ensemble cohérent de tables dont vous allez définir la structure et le contenu. 
 
-Une **table** contient des enregistrements décrits par un ensemble de champs.
+Une **table** ou **tableau** contient des enregistrements décrits par un ensemble de champs.
 
 Une **vue** est une table virtuelle qui affiche le contenu de vos tables en fonction de votre requête.
 
@@ -227,6 +227,10 @@ class: clear
 
 .center[<img src="img/Airtable_schema.png" width="600">]
 
+???
+
+Comment iriez-vous faire les courses ?
+
 ---
 class: clear
 
@@ -239,6 +243,10 @@ Ce qui signifie :
 * pas de somme au milieu de nulle part
 * …
 
+???
+
+Qu'avez-vous pensé du remplissage de la base ?
+
 ---
 class: clear
 
@@ -247,10 +255,6 @@ class: clear
 
 .center[<img src="img/Airtable.png" width="400">]
 
-???
-
-Comment iriez-vous faire les courses ?
-
 ---
 class: clear
 
@@ -258,13 +262,14 @@ class: clear
 
 [.center[<img src="img/Airtable_annotation_dgf.png" width="600">]](https://airtable.com/appeyi0431fV4OJn4/shrbxFxbTf88iHqCR)
 
-Jeu de données publié sur data.gouv.fr et qui a eu les honneurs de leur comm' : https://www.data.gouv.fr/fr/posts/que-se-dit-il-dans-les-commentaires-sur-data-gouv-fr/
+Jeu de données publié sur data.gouv.fr et qui a eu les honneurs de leur comm' : https://www.data.gouv.fr/posts/que-se-dit-il-dans-les-commentaires-sur-data-gouv-fr/
 
 
 ???
 
 Source : https://airtable.com/appeyi0431fV4OJn4/shrbxFxbTf88iHqCR
 
+<!--
 ---
 class: clear
 
@@ -277,9 +282,9 @@ Voici les informations qui m'intéressent :
 * URL du jeu de données
 * Mots-clés
 
-Créez une seule base Airtable et renseignez la de façon collaborative.
-
 --
+
+Inviter dans la base "Insolites" dans l'espace de travail "Collaboratif".
 
 Par exemple :
 * il y a eu 29 278 771€ de dépenses en « produits contre la dysfonction érectile » en Île-de-France en 2013
@@ -291,10 +296,13 @@ Par exemple :
 
 Optionnel, uniquement s'il reste beaucoup de temps.
 
-Attention, avec ce mode opératoire il n'est pas possible de faire travailler les étudiants sur la même base car ils ont chacun leur espace de travail. Par contre ils ont accès aux bases "partagées avec vous" dont celles que j'ai créé.
+Attention, avec ce mode opératoire il n'est pas possible de faire travailler les étudiants sur la même base car ils ont chacun leur espace de travail. Je ne peux pas non plus inviter gratuitement plus de 5 collaborateurs dans un espace de travail. Par contre ils ont accès aux bases "partagées avec vous" dont celles que j'ai créé.
 
 Cf. https://airtable.com/appB1cL7jM2YmlRcc/shrdAS7GZV8bYib12/tblERR1IoRz4ica5L et https://www.reddit.com/r/france/comments/5ing61/datagouv_ou_comment_perdre_des_heures_%C3%A0_se/
 
+-->
+
+Il reste 1h de cours => présenter Grist ? Travailler sur l'EUD avec mon article Datascience & Management ? Montrer un extrait du documentaire Révolution no-code ?
 
 ---
 class: clear
@@ -417,6 +425,10 @@ class: clear
 #### 8. Copiez sous forme tabulaire le plan d'action science ouverte de l'IRD
 
 Le plan d'action est disponible sur https://s.42l.fr/pa_ird
+
+N'hésitez pas à utiliser des champs liés à la première table.
+
+???
 
 N'hésitez pas à utiliser des champs liés à la première table.
 

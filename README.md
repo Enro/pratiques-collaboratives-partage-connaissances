@@ -1,4 +1,4 @@
-# Cours "Pratiques collaboratives et partage de connaissances" du BUT Infonum (2025-2026)
+# Cours "Pratiques collaboratives et partage de connaissances" du BUT Infonum (2026-2027)
 
 Cours donné en 3e année du BUT Information numérique dans les organisations (Université Bordeaux Montaigne)
 
@@ -10,7 +10,7 @@ Ce cours comprenant un peu de théorie et beaucoup de pratique vise à développ
 
 ### Session n° 1
 
-**Vendredi 26 septembre : 8h30-12h30**
+**Jeudi 24 septembre : 8h30-12h30**
 
 Intérêt de décloisonner l'information dans les organisations. S'inspirer des méthodes de "corporate hacking". Retour d'expérience : outil Basecamp.
 
@@ -18,7 +18,7 @@ Intérêt de décloisonner l'information dans les organisations. S'inspirer des 
 
 ### Session n° 2
 
-**Jeudi 16 octobre : 8h30-12H30**
+**Mercredi 14 octobre : 8h30-12H30**
 
 Prise de notes programmables et gestion des connaissances individuelles avec Obsidian. Savoir formater ses notes avec Markdown, relier les notes entre elles en utilisant les tags et les liens internes, faire des requêtes sur les notes avec Bases.
 
@@ -29,7 +29,7 @@ Prise de notes programmables et gestion des connaissances individuelles avec Obs
 
 ### Session n° 3
 
-**Vendredi 24 octobre : 8h30-12H30**
+**Vendredi 16 octobre : 13h30-17H30**
 
 Aller plus loin dans les notes programmables avec Notion, qui apporte une grande ergonomie et une dimension collaborative. Anytype s'inspire de Notion tout en respectant la vie privée.
 
@@ -37,16 +37,16 @@ Aller plus loin dans les notes programmables avec Notion, qui apporte une grande
 
 ### Session n° 4
 
-**Jeudi 18 décembre : 8h30-12H30**
+**Jeudi 12 novembre : 8h30-12H30**
 
 Structurer ses données sous forme tabulaire avec Airtable : exemple de données nativement tabulaires.
 
 ### Session n° 5
 
-**Vendredi 19 décembre : 8h30-12H30**
+**Vendredi 13 novembre : 13h30-17H30**
 
 Contrôle des connaissances
 
 Structurer ses données sous forme tabulaire avec Airtable : exemple d'informations textuelles.
 
-<!-- * [support de présentation](Structurer-donnees-tabulaires-Airtable.html) -->
+* [support de présentation](Structurer-donnees-tabulaires-Airtable.html)

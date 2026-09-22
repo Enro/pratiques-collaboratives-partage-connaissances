@@ -37,8 +37,9 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-# R Environment Variables
+# Environment Variables
 .Renviron
+.obsidian/
 
 # pkgdown site
 docs/
@@ -59,5 +60,6 @@ assets/
 Examen.*
 Exercices corrigés Dataview.md
 Exercices Dataview.md
+Exercices Dataview.pdf
 Exercices corrigés Bases.md
 Exercices Bases.md

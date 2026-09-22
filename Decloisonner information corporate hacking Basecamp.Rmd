@@ -2,7 +2,7 @@
 title: Collaborer, c’est faire circuler l’information
 subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
 author: "Antoine Blanchard"
-date: "Septembre 2025"
+date: "Septembre 2026"
 output:
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]
@@ -32,8 +32,8 @@ class: clear
 
 ### Note sur 20
 
-* travail en groupe noté sur 5 lors de la séance n° 3 (24 octobre)
-* contrôle noté sur 15 lors de la séance n° 5 (19 décembre)
+* travail en groupe noté sur 5 lors de la séance n° 3 (16 octobre)
+* contrôle noté sur 15 lors de la séance n° 5 (13 novembre)
 
 --
 
@@ -144,8 +144,6 @@ Celui à qui on donne une information pourrait même l'utiliser contre vous !
 .center.inverse.font120[Paradoxe] 
 
 ???
-
-
 
 L'expertise ne doit pas être plus valorisée que le fait de mentorer, de venir en aide…
 
