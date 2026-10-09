@@ -2,7 +2,7 @@
 title: Gestion du travail et des connaissances individuelles avec Obsidian
 subtitle: BUT3A Infonum – UE "Pratiques collaboratives et partage de connaissances"
 author: "Antoine Blanchard"
-date: "Octobre 2025"
+date: "Octobre 2026"
 output:
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]
@@ -202,7 +202,7 @@ Obsidian est utilisé par une communauté très active qui développe de nombreu
 
 Vous pouvez retrouver Obsidian, Zettlr, Notion… dans ce tableau : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Markdown/Tableau%20des%20outils%20pour%20markdown.md
 
-??? 
+???
 
 Basecamp : 2004
 
@@ -250,13 +250,11 @@ class: clear
 * Notes
 
 --
-
 5. Créer deux notes dans le dossier Notes :
 * Basecamp
 * Obsidian
 
 --
-
 6. Compléter ces notes en rédigeant quelques lignes en .inverse[syntaxe markdown] sur chacun de ces logiciels – voir le tuto préparé par Olivier Le Deuff : https://github.com/oledeuff/BUT-Infonum-3/blob/main/Markdown/Tutoriel%20Markdown.md
 
 --
@@ -285,7 +283,7 @@ class: clear
 3. Tester un modèle : créer une note et cliquer sur l'icône `r icons::fontawesome("copy")` `Insérer le modèle` puis choisir le modèle à appliquer
 
 --
-3. Télécharger les notes que j'ai créées à partir de ces modèles, à placer dans le dossier `Notes` : [https&#58;//github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre Obsidian/Notes](https://github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre%20Obsidian/Notes)
+3. Télécharger les notes "Pratiques collaboratives…" que j'ai créées à partir de ces modèles, à placer dans le dossier `Notes` : [https&#58;//github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre Obsidian/Notes](https://github.com/Enro/pratiques-collaboratives-partage-connaissances/tree/main/Coffre%20Obsidian/Notes)
 
 --
 4. Ajouter des rétroliens vers les notes Basecamp et Obsidian à chaque fois que ces outils sont mentionnés, en utilisant la syntaxe `[[Nom de la note]]`.
@@ -298,25 +296,27 @@ class: clear
 
 ## Aller plus loin avec Bases
 
-Bases est un plugin pour Obsidian qui permet d'afficher les informations contenues dans ses notes grâce à des requêtes -- et plus largement de gérer ses notes comme une base de données.
+Bases est un plugin pour Obsidian qui permet d'afficher les informations contenues dans ses notes grâce à des requêtes – et plus largement de gérer ses notes comme une base de données.
 
 .pull-left[
 **Table**
-<img src="img/bases-table.png" width="400">
+<img src="img/bases-table.png" width="300">
+**Liste**
+<img src="img/bases-list.png" width="280">
 ]
 
 .pull-right[
 **Cartes**
-<img src="img/bases-cards.png" width="450">
+<img src="img/bases-cards.png" width="280">
+**Kanban**
+<img src="img/bases-kanban.png" width="300">
 ]
 
 <!-- <img src="img/bases-map.png" width="260"> -->
 
-
-
 ???
 
-2 affichages possibles <!-- Les affichages List et Map sont en early access uniquement --> 
+4 affichages possibles <!-- L'affichage Map nécessite une extension supplémentaire --> 
 
 
 ---

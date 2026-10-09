@@ -47,6 +47,15 @@ Qui est en alternance ?
 
 21 diapos en 30'
 
+
+---
+class: clear 
+
+## Retrouvez les supports de cours sur 
+<br />
+<br />
+.center.font150[https://enro.github.io/pratiques-collaboratives-partage-connaissances/]
+
 ---
 
 class: inverse, mline, center, middle
@@ -410,7 +419,7 @@ Basecamp est un outil de gestion de projet lancé en 2004 aux USA.
 --
 
 1. Faites le tour de tous les projets auxquels vous avez accès
-<!-- avec les projets en All Access ils n'ont pas le bouton "View all projects as list" donc comment les rejoindre ?
+<!-- les projets remontent en page d'accueil une fois qu'ils ont été ouverts une fois
 -->
 --
 
@@ -457,7 +466,9 @@ Les notifications sont activées par défaut si invitées dans le projet
 
 ???
 
-Projet > Set-up tools > Automatic check-in
+Projet > Add a tool > Automatic check-in
+
+Hill chart : dans les propriétés de to do list.
 
 
 

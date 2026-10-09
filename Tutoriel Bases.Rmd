@@ -75,7 +75,7 @@ filters:
 
 exclut les notes qui n'ont pas été modifiées dans la semaine écoulée (littéralement : la requête ne garde que les notes dont la dernière modification est postérieure à la date du jour moins 1 semaine).
 
-Toutes les options permettant de manier les dates et les durées sont décrites dans [la documentation Bases](https://help.obsidian.md/bases/syntax#Date%20arithmetic).
+Toutes les options permettant de manier les dates et les durées sont décrites dans [la documentation Bases](https://obsidian.md/fr/help/bases/syntax#Arithm%C3%A9tique+des+dates).
 
 ### Opérateurs logiques
 
@@ -192,6 +192,33 @@ views:
 ```
 ````
 
+### list
+
+Sur le même principe, la requête ci-dessous affiche la liste des notes sous la forme d'une liste à puces ou liste numérotée. Par défaut la liste est à puces, le paramètre `markers` détermine si la liste est numérotée (`number`) ou sans marqueur (`none`) .
+
+ :
+
+````
+```base
+views:
+  - type: list
+    name: "Ma liste"
+    markers: number
+```
+````
+
+### kanban 
+
+Sur le même principe, la requête ci-dessous affiche la liste des notes sous la forme d'un kanban :
+
+````         
+```base
+views:
+  - type: kanban
+    name: "Ma table"
+```
+````
+
 ### limit
 
 Pour n'afficher que les 5, 10, 20 premiers résultats, il est possible d'utiliser la commande `limit` de la façon suivante :
@@ -205,7 +232,7 @@ views:
 ```
 ````
 
-## Trier les résultats à afficher
+## Organiser les résultats à afficher
 
 ### sort
 
@@ -231,20 +258,29 @@ views:
 ```
 ````
 
-<!-- Cette fonctionnalité est en développement : https://forum.obsidian.md/t/group-by-feature-in-bases-similar-to-notion/105483/2
-### GROUP BY
+### group 
 
-La commande `GROUP BY` permet d'afficher plusieurs résultats par ligne, une ligne étant créée pour chaque valeur possible :
+La commande `group` permet de regrouper les résultats selon un champ. Dans la vue kanban, c'est ce qui permet de déterminer les colonnes utilisées pour grouper les notes.
+
+Les groupes peuvent être triés dans l'ordre croissant (`ASC`) ou décroissant (`DESC`) :
+
+
 ````
-``` dataview
-TASK
-GROUP BY file.folder
+```base
+views:
+  - type: table
+    name: "Ma table"
+    order:
+      - file.name
+      - file.folder
+    groupBy:
+      property: file.folder
+      direction: ASC
 ```
 ````
--->
 
 <p style="text-align: center;">
 
-Rédigé par Antoine Blanchard en octobre 2025
+Rédigé par Antoine Blanchard en octobre 2026
 
 </p>
