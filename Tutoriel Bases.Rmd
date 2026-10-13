@@ -103,10 +103,13 @@ Dans cet exemple, trois sous-parties sont introduites par un opérateur `or`, ce
 
 ## Choisir ce qu'on veut afficher
 
-L'affichage des résultats peut prendre deux formes :
+L'affichage des résultats peut prendre quatre formes :
 
 -   un tableau
--   des cartes organisées en galerie.
+-   des cartes organisées en galerie
+-   une liste
+-   un kanban (cartes organisées en colonne).
+
 
 ### table
 
