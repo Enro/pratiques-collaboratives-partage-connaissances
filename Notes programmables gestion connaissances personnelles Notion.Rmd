@@ -136,9 +136,11 @@ class: clear
 #### 3. Importer votre fiche de lecture depuis Notion
 
 * dans Notion, aller sur votre fiche de lecture et sélectionner le menu `r icons::fontawesome("ellipsis-h")` > `Exporter` > `Exporter`
-* dans Anytype, aller dans le menu `Anytype` > `Paramètres` > `Importer dans l'espace` > `r icons::fontawesome("markdown")` `Markdown` et sélectionner le fichier Zip exporté depuis Notion
+* dans Anytype, aller dans le menu `Anytype` > `Paramètres` > `Importer` > `r icons::fontawesome("markdown")` `Markdown` et sélectionner le fichier Zip exporté depuis Notion
 
 ???
+
+Anytype est rangé dans Ce PC > Disque local C:
 
 Si manque de temps, sauter 2.
 
