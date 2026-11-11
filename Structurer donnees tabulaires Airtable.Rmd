@@ -270,10 +270,6 @@ Jeu de données publié sur data.gouv.fr et qui a eu les honneurs de leur comm' 
 Source : https://airtable.com/appeyi0431fV4OJn4/shrbxFxbTf88iHqCR
 
 ---
-class: inverse, mline, center, middle
-
-# Comprendre le no-code
----
 class: clear
 
 ## Le no-code : développer ses propres outils, sans programmer
