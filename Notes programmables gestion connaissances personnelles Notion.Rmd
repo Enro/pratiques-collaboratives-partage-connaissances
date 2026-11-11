@@ -79,7 +79,7 @@ https://s.42l.fr/notion2627
 
 Dupliquer l'ensemble de l'activité avec le menu "Dupliquer l'espace d'équipe" et MàJ l'URL.
 
-Créer un accès invité pour chaque étudiant·e : en haut à droite de la page, cliquez sur Partager, puis sur le bouton Inviter (avec les droits "Accès complet")
+Les étudiants vont sur la page et demandent l'accès, à leur donner avec les droits "Accès complet" (sinon ça se passe dans "Partager" en haut à droite).
 
 Après 1h : ils ont lu leur texte
 Pause de 15'

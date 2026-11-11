@@ -45,8 +45,7 @@ Je me présente.
 
 Qui est en alternance ?
 
-21 diapos en 30'
-
+Lancer Obsidian et Anytype sur les ordis.
 
 ---
 class: clear 

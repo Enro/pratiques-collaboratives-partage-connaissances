@@ -23,7 +23,7 @@ class: center, middle, inverse, title-slide
 ### Antoine Blanchard
 ]
 .date[
-### Décembre 2025
+### Novembre 2026
 ]
 
 ---
@@ -67,7 +67,7 @@ Qu'est-ce que vous connaissez ?
 ---
 class: clear
 
-## Quand utiliser Airtable ?
+## Pourquoi utiliser Airtable ?
 
 &gt; "Les tableurs sont vraiment optimisés pour l'analyse numérique et les calculs financiers. Cependant, près de 90 % des tableurs n'ont pas de formules. La plupart sont utilisés à des fins d'organisation."
 
@@ -100,7 +100,7 @@ class: clear
 &lt;br /&gt;
 &lt;br /&gt;
 
-Se connecter sur https://s.42l.fr/airtable_2025
+Se connecter sur https://s.42l.fr/airtable_2026
 
 ???
 
@@ -211,7 +211,7 @@ La table "Quantité ingrédients" vient d'être créée. Elle se nomme pour l'in
 * "Menu de la semaine ?" de type `Recherche` : choisir la source "Recettes" et le champ "Menu de la semaine ?"
 
 
-#### 6. Configurez le champ "Résumé" pour afficher la quantité de chaque ingrédient (par exemple : "80 gr. potiron") : il va falloir appeler et combiner différents champs
+#### 6. Configurez le champ "Résumé" pour afficher la quantité de chaque ingrédient (par exemple : "200 gr. potiron") : il va falloir appeler et combiner différents champs
 * changez le type du champ "Résumé" en `Formule`
 * dans la formule, insérez le champ "Quantité"
 * ajoutez un espace en ajoutant `&amp; " " &amp;` dans la formule
@@ -287,35 +287,112 @@ Jeu de données publié sur data.gouv.fr et qui a eu les honneurs de leur comm' 
 Source : https://airtable.com/appeyi0431fV4OJn4/shrbxFxbTf88iHqCR
 
 ---
+class: inverse, mline, center, middle
+
+# Comprendre le no-code
+---
 class: clear
 
-## Activité : les insolites de data.gouv.fr
+## Le no-code : développer ses propres outils, sans programmer
 
-Vous devez écumer le site data.gouv.fr pour identifier des informations insolites à partir de jeux de données en open data.
-
-Voici les informations qui m'intéressent :
-* Fait insolite
-* URL du jeu de données
-* Mots-clés
+.center[**Le principe :** assembler et paramétrer des briques fonctionnelles pour créer des applications adaptées à ses besoins métier, sans écrire de code.]
 
 --
 
-Inviter dans la base "Insolites" dans l'espace de travail "Collaboratif".
+.pull-left[
+**Modéliser les données**
+- Définir les informations à collecter
+- Organiser les données en tables
+- Définir les relations entre les données
 
-Par exemple :
-* il y a eu 29 278 771€ de dépenses en « produits contre la dysfonction érectile » en Île-de-France en 2013
-* il existe une seule femme chirurgien urologue de moins de 30 ans
-* il y a plus d’agents cynophiles (309) que de chiens (278) dans la police municipale en France
-* le prénom Marie-Christophe est porté par deux femmes conseillères municipales.
+**Concevoir les interfaces**
+- Créer des formulaires de saisie
+- Organiser des vues adaptées aux utilisateurs
+- Gérer les droits d'accès
+]
+
+.pull-right[
+**Définir les règles métier**
+- Paramétrer des conditions 
+- Paramétrer des calculs
+- Définir des workflows
+
+**Connecter les services**
+- Échanger des données
+- Déclencher des automatisations
+- Déployer une appli utilisable par plusieurs personnes
+]
+
+&lt;small&gt;Source : Blanchard, A. (2026). *Quand les outils libèrent (ou brident) l'initiative au travail*. Management &amp; Data Science, 10(1).&lt;/small&gt;
 
 ???
 
-Optionnel, uniquement s'il reste beaucoup de temps.
+Cette partie ne fait pas partie de l'évaluation.
 
-Attention, avec ce mode opératoire il n'est pas possible de faire travailler les étudiants sur la même base car ils ont chacun leur espace de travail. Je ne peux pas non plus inviter gratuitement plus de 5 collaborateurs dans un espace de travail. Par contre ils ont accès aux bases "partagées avec vous" dont celles que j'ai créé.
+---
+class: clear 
 
-Cf. https://airtable.com/appB1cL7jM2YmlRcc/shrdAS7GZV8bYib12/tblERR1IoRz4ica5L et https://www.reddit.com/r/france/comments/5ing61/datagouv_ou_comment_perdre_des_heures_%C3%A0_se/
+## Imaginer le no-code dans 4 situations professionnelles
 
+.pull-left[
+### 1. Service de scolarité
+
+Suivre les stages des étudiants :
+- Entreprises et tuteurs
+- Conventions et échéances
+- Visites et évaluations
+- Relances
+
+### 2. PME industrielle
+
+Gérer la maintenance :
+- Signalements et équipements
+- Attribution des interventions
+- Suivi des réparations
+- Historique des incidents
+]
+
+.pull-right[
+### 3. Service RH
+
+Gérer les recrutements :
+- Postes et candidatures
+- Étapes du recrutement
+- Entretiens
+- Décisions
+
+### 4. Entreprise commerciale
+
+Suivre les commandes :
+- Clients et fournisseurs
+- Produits et commandes
+- Paiements et livraisons
+- Retards et incidents
+]
+
+???
+
+Chaque étudiant choisit un cas d'usage, y réfléchit avec papier-crayon, et je les interroge cas d'usage par cas d'usage.
+
+---
+class: clear 
+
+## À quelles conditions utiliser un outil no-code ?
+
+--
+&lt;br /&gt;
+&lt;br /&gt;
+
+| C'est pertinent quand…                          | Il faut être vigilant quand…                 | Ce n'est pas adapté quand…                                          |
+| ----------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------- |
+| Le besoin métier évolue fréquemment             | Plusieurs personnes modifient les données    | Les exigences de sécurité sont très élevées                         |
+| Les outils existants ne répondent pas au besoin | L'application devient critique               | Les processus sont extrêmement complexes                            |
+| Les utilisateurs connaissent bien leur métier   | Le volume de données augmente                | Des performances spécifiques sont nécessaires                       |
+| Il faut expérimenter rapidement                 | La maintenance repose sur une seule personne | Une intégration au système d'information est indispensable |
+
+???
+
+Faire réfléchir les étudiants à la question (prises de note au tableau ?) avant d'afficher les réponses.
 
 ---
 class: clear
@@ -438,6 +515,10 @@ class: clear
 #### 8. Copiez sous forme tabulaire le plan d'action science ouverte de l'IRD
 
 Le plan d'action est disponible sur https://s.42l.fr/pa_ird
+
+N'hésitez pas à utiliser des champs liés à la première table.
+
+???
 
 N'hésitez pas à utiliser des champs liés à la première table.
 
