@@ -37,13 +37,13 @@ Aller plus loin dans les notes programmables avec Notion, qui apporte une grande
 
 ### Session n° 4
 
-**Jeudi 12 novembre : 8h30-12H30**
+**Vendredi 13 novembre : 13h30-17H30**
 
 Structurer ses données sous forme tabulaire avec Airtable : exemple de données nativement tabulaires.
 
 ### Session n° 5
 
-**Vendredi 13 novembre : 13h30-17H30**
+**Mardi 1er décembre : 8h30-12H30**
 
 Contrôle des connaissances
 
